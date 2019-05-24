@@ -4,9 +4,9 @@
 #include <xc.h>
 
 #define _XTAL_FREQ 4000000
-void  SENO_GENERAR_100();
-void  SENO_GENERAR_50();
-void  SENO_GENERAR_20();
+void  SENO_1();
+void  SENO_2();
+void  SENO_3();
 
 #endif
 

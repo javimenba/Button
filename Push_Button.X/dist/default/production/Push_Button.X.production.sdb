@@ -23,8 +23,6 @@
 [v ___atdiv __atdiv `(m  1 e 3 0 ]
 "8 /opt/microchip/xc8/v1.32/sources/common/atmod.c
 [v ___atmod __atmod `(m  1 e 3 0 ]
-"5 /opt/microchip/xc8/v1.32/sources/common/atoi.c
-[v _atoi atoi `(i  1 e 2 0 ]
 "37 /opt/microchip/xc8/v1.32/sources/common/attofl.c
 [v ___attofl __attofl `(d  1 e 3 0 ]
 "37 /opt/microchip/xc8/v1.32/sources/common/attoft.c
@@ -69,8 +67,6 @@
 [v ___ftsub __ftsub `(f  1 e 3 0 ]
 "44 /opt/microchip/xc8/v1.32/sources/common/fttol.c
 [v ___fttol __fttol `(l  1 e 4 0 ]
-"8 /opt/microchip/xc8/v1.32/sources/common/isdigit.c
-[v _isdigit isdigit `(b  1 e 0 0 ]
 "4 /opt/microchip/xc8/v1.32/sources/common/lbdiv.c
 [v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
 "4 /opt/microchip/xc8/v1.32/sources/common/lbmod.c
@@ -131,20 +127,8 @@
 [v ___aslmul __aslmul `(ul  1 e 4 0 ]
 "1 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/Convertir.h
 [v _Conv_Entero Conv_Entero `(i  1 e 2 0 ]
-"6 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/Delay.h
-[v _tm_100 tm_100 `(v  1 e 0 0 ]
-"11
-[v _tm_200 tm_200 `(v  1 e 0 0 ]
-"19
-[v _tm_500 tm_500 `(v  1 e 0 0 ]
-"35
-[v _tm_5s tm_5s `(v  1 e 0 0 ]
-"13 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/Keypad.c
-[v _init_teclado init_teclado `(v  1 e 0 0 ]
-"19
-[v _Keypad Keypad `(uc  1 e 1 0 ]
-"56
-[v _Get Get `(uc  1 e 1 0 ]
+"4 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/delay.h
+[v _tm_1s tm_1s `(v  1 e 0 0 ]
 "48 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/LCD.h
 [v _Lcd_Init Lcd_Init `(v  1 e 0 0 ]
 "92
@@ -162,18 +146,22 @@
 "9 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/PWM.c
 [v _PWM_generar PWM_generar `(v  1 e 0 0 ]
 "11 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/SENO.c
-[v _SENO_100 SENO_100 `(v  1 e 0 0 ]
-"34
-[v _SENO_50 SENO_50 `(v  1 e 0 0 ]
-"57
-[v _SENO_20 SENO_20 `(v  1 e 0 0 ]
+[v _SENO_1 SENO_1 `(v  1 e 0 0 ]
+"38
+[v _SENO_2 SENO_2 `(v  1 e 0 0 ]
+"64
+[v _SENO_3 SENO_3 `(v  1 e 0 0 ]
+"11 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/Trian.c
+[v _TRI_1 TRI_1 `(i  1 e 2 0 ]
+"38
+[v _TRI_2 TRI_2 `(i  1 e 2 0 ]
+"65
+[v _TRI_3 TRI_3 `(i  1 e 2 0 ]
 "223 /opt/microchip/xc8/v1.32/include/pic18f45k50.h
 [v _ANSELA ANSELA `VEuc  1 e 1 @3931 ]
-"267
-[v _ANSELB ANSELB `VEuc  1 e 1 @3932 ]
 "349
 [v _ANSELD ANSELD `VEuc  1 e 1 @3934 ]
-[s S164 . 1 `uc 1 RA0 1 0 :1:0 
+[s S165 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
 `uc 1 RA2 1 0 :1:2 
 `uc 1 RA3 1 0 :1:3 
@@ -183,7 +171,7 @@
 `uc 1 RA7 1 0 :1:7 
 ]
 "3192
-[s S173 . 1 `uc 1 AN0 1 0 :1:0 
+[s S174 . 1 `uc 1 AN0 1 0 :1:0 
 `uc 1 AN1 1 0 :1:1 
 `uc 1 AN2 1 0 :1:2 
 `uc 1 AN3 1 0 :1:3 
@@ -191,48 +179,23 @@
 `uc 1 AN4 1 0 :1:5 
 `uc 1 OSC2 1 0 :1:6 
 ]
-[s S181 . 1 `uc 1 . 1 0 :2:0 
+[s S182 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 VREFM 1 0 :1:2 
 `uc 1 VREFP 1 0 :1:3 
 `uc 1 . 1 0 :1:4 
 `uc 1 LVDIN 1 0 :1:5 
 ]
-[s S187 . 1 `uc 1 . 1 0 :5:0 
+[s S188 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 HLVDIN 1 0 :1:5 
 ]
-[s S190 . 1 `uc 1 . 1 0 :7:0 
+[s S191 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 RJPU 1 0 :1:7 
 ]
-[s S193 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+[s S194 . 1 `uc 1 ULPWUIN 1 0 :1:0 
 ]
-[u S195 . 1 `S164 1 . 1 0 `S173 1 . 1 0 `S181 1 . 1 0 `S187 1 . 1 0 `S190 1 . 1 0 `S193 1 . 1 0 ]
-[v _PORTAbits PORTAbits `VES195  1 e 1 @3968 ]
-"3301
-[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
-[s S699 . 1 `uc 1 RB0 1 0 :1:0 
-`uc 1 RB1 1 0 :1:1 
-`uc 1 RB2 1 0 :1:2 
-`uc 1 RB3 1 0 :1:3 
-`uc 1 RB4 1 0 :1:4 
-`uc 1 RB5 1 0 :1:5 
-`uc 1 RB6 1 0 :1:6 
-`uc 1 RB7 1 0 :1:7 
-]
-"3331
-[s S708 . 1 `uc 1 INT0 1 0 :1:0 
-`uc 1 INT1 1 0 :1:1 
-`uc 1 INT2 1 0 :1:2 
-`uc 1 . 1 0 :2:3 
-`uc 1 PGM 1 0 :1:5 
-`uc 1 PGC 1 0 :1:6 
-`uc 1 PGD 1 0 :1:7 
-]
-[s S716 . 1 `uc 1 . 1 0 :3:0 
-`uc 1 CCP2_PA2 1 0 :1:3 
-]
-[u S719 . 1 `S699 1 . 1 0 `S708 1 . 1 0 `S716 1 . 1 0 ]
-[v _PORTBbits PORTBbits `VES719  1 e 1 @3969 ]
-[s S552 . 1 `uc 1 RC0 1 0 :1:0 
+[u S196 . 1 `S165 1 . 1 0 `S174 1 . 1 0 `S182 1 . 1 0 `S188 1 . 1 0 `S191 1 . 1 0 `S194 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES196  1 e 1 @3968 ]
+[s S581 . 1 `uc 1 RC0 1 0 :1:0 
 `uc 1 RC1 1 0 :1:1 
 `uc 1 RC2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -242,34 +205,34 @@
 `uc 1 RC7 1 0 :1:7 
 ]
 "3459
-[s S561 . 1 `uc 1 T1OSO 1 0 :1:0 
+[s S590 . 1 `uc 1 T1OSO 1 0 :1:0 
 `uc 1 T1OSI 1 0 :1:1 
 `uc 1 CCP1 1 0 :1:2 
 `uc 1 . 1 0 :3:3 
 `uc 1 TX 1 0 :1:6 
 `uc 1 RX 1 0 :1:7 
 ]
-[s S568 . 1 `uc 1 T13CKI 1 0 :1:0 
+[s S597 . 1 `uc 1 T13CKI 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 P1A 1 0 :1:2 
 `uc 1 . 1 0 :3:3 
 `uc 1 CK 1 0 :1:6 
 `uc 1 DT 1 0 :1:7 
 ]
-[s S575 . 1 `uc 1 . 1 0 :1:0 
+[s S604 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 CCP2 1 0 :1:1 
 ]
-[s S578 . 1 `uc 1 . 1 0 :2:0 
+[s S607 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 PA1 1 0 :1:2 
 ]
-[s S581 . 1 `uc 1 . 1 0 :1:0 
+[s S610 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 PA2 1 0 :1:1 
 ]
-[s S584 . 1 `uc 1 . 1 0 :3:0 
+[s S613 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 RC3 1 0 :1:3 
 ]
-[u S587 . 1 `S552 1 . 1 0 `S561 1 . 1 0 `S568 1 . 1 0 `S575 1 . 1 0 `S578 1 . 1 0 `S581 1 . 1 0 `S584 1 . 1 0 ]
-[v _PORTCbits PORTCbits `VES587  1 e 1 @3970 ]
+[u S616 . 1 `S581 1 . 1 0 `S590 1 . 1 0 `S597 1 . 1 0 `S604 1 . 1 0 `S607 1 . 1 0 `S610 1 . 1 0 `S613 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES616  1 e 1 @3970 ]
 [s S30 . 1 `uc 1 RD0 1 0 :1:0 
 `uc 1 RD1 1 0 :1:1 
 `uc 1 RD2 1 0 :1:2 
@@ -296,7 +259,7 @@
 [v _PORTDbits PORTDbits `VES82  1 e 1 @3971 ]
 "5035
 [v _CCPR2L CCPR2L `VEuc  1 e 1 @3984 ]
-[s S125 . 1 `uc 1 TRISA0 1 0 :1:0 
+[s S126 . 1 `uc 1 TRISA0 1 0 :1:0 
 `uc 1 TRISA1 1 0 :1:1 
 `uc 1 TRISA2 1 0 :1:2 
 `uc 1 TRISA3 1 0 :1:3 
@@ -306,7 +269,7 @@
 `uc 1 TRISA7 1 0 :1:7 
 ]
 "5104
-[s S134 . 1 `uc 1 RA0 1 0 :1:0 
+[s S135 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
 `uc 1 RA2 1 0 :1:2 
 `uc 1 RA3 1 0 :1:3 
@@ -314,11 +277,9 @@
 `uc 1 RA5 1 0 :1:5 
 `uc 1 RA6 1 0 :1:6 
 ]
-[u S142 . 1 `S125 1 . 1 0 `S134 1 . 1 0 ]
-[v _TRISAbits TRISAbits `VES142  1 e 1 @3986 ]
-"5282
-[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
-[s S245 . 1 `uc 1 TRISC0 1 0 :1:0 
+[u S143 . 1 `S126 1 . 1 0 `S135 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES143  1 e 1 @3986 ]
+[s S443 . 1 `uc 1 TRISC0 1 0 :1:0 
 `uc 1 TRISC1 1 0 :1:1 
 `uc 1 TRISC2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -328,18 +289,18 @@
 `uc 1 TRISC7 1 0 :1:7 
 ]
 "5537
-[s S254 . 1 `uc 1 RC0 1 0 :1:0 
+[s S452 . 1 `uc 1 RC0 1 0 :1:0 
 `uc 1 RC1 1 0 :1:1 
 `uc 1 RC2 1 0 :1:2 
 `uc 1 . 1 0 :3:3 
 `uc 1 RC6 1 0 :1:6 
 `uc 1 RC7 1 0 :1:7 
 ]
-[s S261 . 1 `uc 1 . 1 0 :3:0 
+[s S459 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 TRISC3 1 0 :1:3 
 ]
-[u S264 . 1 `S245 1 . 1 0 `S254 1 . 1 0 `S261 1 . 1 0 ]
-[v _TRISCbits TRISCbits `VES264  1 e 1 @3988 ]
+[u S462 . 1 `S443 1 . 1 0 `S452 1 . 1 0 `S459 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES462  1 e 1 @3988 ]
 [s S21 . 1 `uc 1 TRISD0 1 0 :1:0 
 `uc 1 TRISD1 1 0 :1:1 
 `uc 1 TRISD2 1 0 :1:2 
@@ -356,12 +317,12 @@
 [v _CCP2CON CCP2CON `VEuc  1 e 1 @3991 ]
 "9787
 [v _T2CON T2CON `VEuc  1 e 1 @4026 ]
-[s S489 . 1 `uc 1 T2CKPS 1 0 :2:0 
+[s S490 . 1 `uc 1 T2CKPS 1 0 :2:0 
 `uc 1 TMR2ON 1 0 :1:2 
 `uc 1 T2OUTPS 1 0 :4:3 
 ]
 "9808
-[s S493 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+[s S494 . 1 `uc 1 T2CKPS0 1 0 :1:0 
 `uc 1 T2CKPS1 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 T2OUTPS0 1 0 :1:3 
@@ -369,33 +330,15 @@
 `uc 1 T2OUTPS2 1 0 :1:5 
 `uc 1 T2OUTPS3 1 0 :1:6 
 ]
-[u S501 . 1 `S489 1 . 1 0 `S493 1 . 1 0 ]
-[v _T2CONbits T2CONbits `VES501  1 e 1 @4026 ]
+[u S502 . 1 `S490 1 . 1 0 `S494 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES502  1 e 1 @4026 ]
 "9857
 [v _PR2 PR2 `VEuc  1 e 1 @4027 ]
 "9876
 [v _TMR2 TMR2 `VEuc  1 e 1 @4028 ]
-[s S657 . 1 `uc 1 . 1 0 :7:0 
-`uc 1 NOT_RBPU 1 0 :1:7 
-]
-"13632
-[s S660 . 1 `uc 1 IOCIP 1 0 :1:0 
-`uc 1 . 1 0 :1:1 
-`uc 1 TMR0IP 1 0 :1:2 
-`uc 1 . 1 0 :1:3 
-`uc 1 INTEDG2 1 0 :1:4 
-`uc 1 INTEDG1 1 0 :1:5 
-`uc 1 INTEDG0 1 0 :1:6 
-`uc 1 nRBPU 1 0 :1:7 
-]
-[s S669 . 1 `uc 1 . 1 0 :2:0 
-`uc 1 T0IP 1 0 :1:2 
-`uc 1 . 1 0 :4:3 
-`uc 1 RBPU 1 0 :1:7 
-]
-[u S674 . 1 `S657 1 . 1 0 `S660 1 . 1 0 `S669 1 . 1 0 ]
-[v _INTCON2bits INTCON2bits `VES674  1 e 1 @4081 ]
-"21 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/Main.c
+"13104
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"20 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/Main.c
 [v _B B `ui  1 e 2 0 ]
 [v _q q `ui  1 e 2 0 ]
 [v _w w `ui  1 e 2 0 ]
@@ -406,27 +349,29 @@
 [v _D D `ui  1 e 2 0 ]
 [v _p p `ui  1 e 2 0 ]
 [v _frecuencia frecuencia `ui  1 e 2 0 ]
+[v _M M `ui  1 e 2 0 ]
 "22
 [v _main main `(v  1 e 0 0 ]
 {
-"410
-[v main@fre fre `uc  1 a 1 142 ]
-"514
-[v main@valoresSeno valoresSeno `[51]i  1 a 102 0 ]
+"397
+[v main@fre fre `uc  1 a 1 42 ]
 "25
-[v main@cadena cadena `[20]uc  1 a 20 122 ]
-[v main@cad cad `[20]uc  1 a 20 102 ]
+[v main@cadena cadena `[20]uc  1 a 20 20 ]
+[v main@cad cad `[20]uc  1 a 20 0 ]
 "26
-[v main@Z Z `ui  1 a 2 149 ]
-[v main@V V `ui  1 a 2 147 ]
-[v main@X X `ui  1 a 2 145 ]
+[v main@Z Z `ui  1 a 2 47 ]
+[v main@X X `ui  1 a 2 45 ]
+[v main@V V `ui  1 a 2 40 ]
 "24
-[v main@A A `uc  1 a 1 151 ]
-[v main@cant cant `uc  1 a 1 144 ]
-[v main@cantidad cantidad `uc  1 a 1 143 ]
-"513
-[v main@F7724 F7724 `[51]i  1 s 102 F7724 ]
-"557
+[v main@A A `uc  1 a 1 49 ]
+[v main@cant cant `uc  1 a 1 44 ]
+[v main@cantidad cantidad `uc  1 a 1 43 ]
+"670
+} 0
+"4 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/delay.h
+[v _tm_1s tm_1s `(v  1 e 0 0 ]
+{
+"18
 } 0
 "161 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/LCD.h
 [v _lcd_goto lcd_goto `(v  1 e 0 0 ]
@@ -438,26 +383,6 @@
 [v lcd_goto@y y `i  1 p 2 5 ]
 "171
 } 0
-"5 /opt/microchip/xc8/v1.32/sources/common/atoi.c
-[v _atoi atoi `(i  1 e 2 0 ]
-{
-"7
-[v atoi@a a `i  1 a 2 12 ]
-"8
-[v atoi@sign sign `uc  1 a 1 11 ]
-"5
-[v atoi@s s `*.33Cuc  1 p 3 6 ]
-"24
-} 0
-"8 /opt/microchip/xc8/v1.32/sources/common/isdigit.c
-[v _isdigit isdigit `(b  1 e 0 0 ]
-{
-[v isdigit@c c `uc  1 a 1 wreg ]
-[v isdigit@c c `uc  1 a 1 wreg ]
-"14
-[v isdigit@c c `uc  1 a 1 2 ]
-"15
-} 0
 "15 /opt/microchip/xc8/v1.32/sources/common/Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
 {
@@ -467,6 +392,97 @@
 [v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
 [v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
 "53
+} 0
+"65 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/Trian.c
+[v _TRI_3 TRI_3 `(i  1 e 2 0 ]
+{
+"69
+[v TRI_3@valoresSeno valoresSeno `[20]i  1 a 40 13 ]
+"70
+[v TRI_3@i i `i  1 a 2 57 ]
+[v TRI_3@j j `i  1 a 2 55 ]
+[v TRI_3@k k `i  1 a 2 53 ]
+"68
+[v TRI_3@F7364 F7364 `[20]i  1 s 40 F7364 ]
+"91
+} 0
+"38
+[v _TRI_2 TRI_2 `(i  1 e 2 0 ]
+{
+"42
+[v TRI_2@valoresSeno valoresSeno `[20]i  1 a 40 13 ]
+"43
+[v TRI_2@i i `i  1 a 2 57 ]
+[v TRI_2@j j `i  1 a 2 55 ]
+[v TRI_2@k k `i  1 a 2 53 ]
+"41
+[v TRI_2@F7359 F7359 `[20]i  1 s 40 F7359 ]
+"64
+} 0
+"8 /opt/microchip/xc8/v1.32/sources/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"8
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"42
+} 0
+"11 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/Trian.c
+[v _TRI_1 TRI_1 `(i  1 e 2 0 ]
+{
+"15
+[v TRI_1@valoresSeno valoresSeno `[20]i  1 a 40 5 ]
+"16
+[v TRI_1@i i `i  1 a 2 49 ]
+[v TRI_1@j j `i  1 a 2 47 ]
+[v TRI_1@k k `i  1 a 2 45 ]
+"14
+[v TRI_1@F7354 F7354 `[20]i  1 s 40 F7354 ]
+"37
+} 0
+"64 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/SENO.c
+[v _SENO_3 SENO_3 `(v  1 e 0 0 ]
+{
+"68
+[v SENO_3@valoresSeno valoresSeno `[15]i  1 a 30 5 ]
+"69
+[v SENO_3@i i `i  1 a 2 39 ]
+[v SENO_3@j j `i  1 a 2 37 ]
+[v SENO_3@k k `i  1 a 2 35 ]
+"67
+[v SENO_3@F7364 F7364 `[15]i  1 s 30 F7364 ]
+"89
+} 0
+"38
+[v _SENO_2 SENO_2 `(v  1 e 0 0 ]
+{
+"42
+[v SENO_2@valoresSeno valoresSeno `[18]i  1 a 36 5 ]
+"43
+[v SENO_2@i i `i  1 a 2 45 ]
+[v SENO_2@j j `i  1 a 2 43 ]
+[v SENO_2@k k `i  1 a 2 41 ]
+"41
+[v SENO_2@F7359 F7359 `[18]i  1 s 36 F7359 ]
+"62
+} 0
+"11
+[v _SENO_1 SENO_1 `(v  1 e 0 0 ]
+{
+"15
+[v SENO_1@valoresSeno valoresSeno `[20]i  1 a 40 5 ]
+"17
+[v SENO_1@i i `i  1 a 2 49 ]
+[v SENO_1@j j `i  1 a 2 47 ]
+[v SENO_1@k k `i  1 a 2 45 ]
+"14
+[v SENO_1@F7354 F7354 `[20]i  1 s 40 F7354 ]
+"36
 } 0
 "9 /home/francisco/Documentos/Tareas_ayuda/Generador_push/Push_Button.X/PWM.c
 [v _PWM_generar PWM_generar `(v  1 e 0 0 ]

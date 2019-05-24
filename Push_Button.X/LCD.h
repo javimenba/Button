@@ -18,7 +18,7 @@
 #define LCD_RS      PORTDbits.RD0      // RS
 #define TRISRS      TRISDbits.TRISD0
 
-#define LCD_RW      PORTDbits.RD1      // RS
+#define LCD_RW      PORTDbits.RD1      // RW
 #define TRISRW      TRISDbits.TRISD1
 //comandos disponibles
 #define      LCD_FIRST_ROW           128
@@ -85,7 +85,7 @@ __delay_us(5500);
 data = 40; Lcd_Cmd(data);
 data = 16; Lcd_Cmd(data);
 data = 1;  Lcd_Cmd(data);
-data = 15; Lcd_Cmd(data);21333
+data = 15; Lcd_Cmd(data);
 }
 
 
